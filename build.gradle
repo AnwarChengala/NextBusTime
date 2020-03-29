@@ -1,0 +1,36 @@
+plugins {
+    id 'org.springframework.boot' version "${springBootVersion}"
+    id 'io.spring.dependency-management' version "${springDependencyVersion}"
+    id 'java'
+}
+
+group = 'com.project.casestudy'
+version = '0.0.1-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.apache.camel', name: 'camel-spring-boot', version: "${camelVersion}"
+    compile(group: 'org.apache.camel', name: 'camel-http4', version: "${camelVersion}")
+    compile group: 'com.google.code.gson', name: 'gson', version: "${gsonVersion}"
+    compile group: 'org.apache.camel', name: 'camel-jackson', version: "${camelVersion}"
+    compile group: 'org.apache.camel', name: 'camel-spring-boot-starter', version: "${camelVersion}"
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: "${commonsLang3Version}"
+    compile group: 'commons-io', name: 'commons-io', version: "${commonsIoVersion}"
+
+    testCompile group: 'junit', name: 'junit', version: "${junitVersion}"
+    testCompile group: 'org.assertj', name: 'assertj-core', version: "${asserCoreVersion}"
+    testCompile group: 'org.springframework.boot', name: 'spring-boot-test', version: "${springBootVersion}"
+
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: "${jupiterVersion}"
+    testRuntimeOnly group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: "${jupiterVersion}"
+
+    testCompile group: 'org.apache.camel', name: 'camel-test-spring', version: "${camelVersion}"
+    testCompile group: 'org.apache.camel', name: 'camel-test', version: "${camelVersion}"
+}
+
+tasks.test {
+    useJUnitPlatform()
+}

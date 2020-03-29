@@ -1,0 +1,82 @@
+[
+  {
+    "Text": "Target Field Station Platform 2",
+    "Value": "TF22"
+  },
+  {
+    "Text": "Target Field Station Platform 1",
+    "Value": "TF12"
+  },
+  {
+    "Text": "Warehouse District\/ Hennepin Ave Station",
+    "Value": "WAR2"
+  },
+  {
+    "Text": "Nicollet Mall Station",
+    "Value": "5SNI"
+  },
+  {
+    "Text": "Government Plaza Station",
+    "Value": "GOVT"
+  },
+  {
+    "Text": "U.S. Bank Stadium Station",
+    "Value": "USB2"
+  },
+  {
+    "Text": "Cedar-Riverside Station",
+    "Value": "CDRV"
+  },
+  {
+    "Text": "Franklin Ave Station",
+    "Value": "FRHI"
+  },
+  {
+    "Text": "Lake St\/ Midtown Station",
+    "Value": "LAHI"
+  },
+  {
+    "Text": "38th St Station ",
+    "Value": "38HI"
+  },
+  {
+    "Text": "46th St Station ",
+    "Value": "46HI"
+  },
+  {
+    "Text": "50th St\/ Minnehaha Park Station",
+    "Value": "50HI"
+  },
+  {
+    "Text": "VA Medical Center Station",
+    "Value": "VAMC"
+  },
+  {
+    "Text": "Fort Snelling Station",
+    "Value": "FTSN"
+  },
+  {
+    "Text": "MSP Airport Terminal 1 - Lindbergh Station",
+    "Value": "LIND"
+  },
+  {
+    "Text": "MSP Airport Terminal 2 - Humphrey Station",
+    "Value": "HHTE"
+  },
+  {
+    "Text": "American Blvd Station ",
+    "Value": "AM34"
+  },
+  {
+    "Text": "Bloomington Central Station",
+    "Value": "BLCT"
+  },
+  {
+    "Text": "28th Ave Station",
+    "Value": "28AV"
+  },
+  {
+    "Text": "Mall of America Station",
+    "Value": "MAAM"
+  }
+]

@@ -1,0 +1,8 @@
+bus.route.name: "METRO Blue Line"
+bus.stop.name: "Target Field Station Platform 1"
+direction: "south"
+
+metrotransit:
+  url: https4://svc.metrotransit.org/nextrip/
+file:
+  location: /Users/Ruhe/Desktop/NextBus
